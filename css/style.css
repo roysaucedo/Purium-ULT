@@ -1,0 +1,221 @@
+/* MASTER */
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAV */
+
+.nav {
+    display: flex;
+    width: 100%;;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.nav-items {
+    display: flex;
+
+}
+
+.nav-items-text {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-cta {
+    width: 100px;
+    height: 35px;
+    background-color: green;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-cta:hover{
+    background-color: rgb(8, 66, 18);
+}
+
+.nav-cta-text {
+    font-size: 12px;
+    color: white;
+}
+
+/* HERO */
+
+.hero-ctr {
+    margin-top: 40px;
+    width: 100%;
+    height: 55vh;
+
+
+}
+.hero-text {
+    text-align: center;
+    font-size: 36px;
+
+}
+.hero-sub-text {
+    text-align: center;
+    font-size: 16px;
+    color: #44944b;
+}
+
+.hero-img-ctr {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 60%;
+    max-width: 600px;
+}
+
+
+
+
+.hero-cta-ctr {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-cta {
+    width: 150px;
+    height: 35px;
+    background-color: green;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-cta-text {
+    font-size: 12px;
+    color: white;
+
+}
+
+/* BENEFITS */
+
+.benefits-ctr {
+    background-color: #c6ffcb;
+    width: 100%;
+    height: 1100px;
+
+}
+
+.benefits-headline{
+    padding-top: 50px;
+}
+
+.benefits-sub-headline{
+    padding-top: 5px;
+}
+
+.benefits-grid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 40px auto;
+}
+.benefits-grid-item {
+
+}
+
+.benefits-img {
+    width: 500px;
+
+}
+
+
+/* CUSTOMER STORIES */
+
+.customer-stories-ctr {
+    background-color: #c6ffcb;
+    width: 100%;
+    height: 900px;
+}
+
+.customer-stories-headline {
+    padding: 50px 0;
+
+}
+
+.customer-stories-grid-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.customer-stories-grid-2 {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.customer-stories-video {
+    width: 350px;
+    height: 250px;
+    background-color: black;
+
+}
+
+.customer-stories-video-text {
+    padding: 20px;
+}
+
+.customer-stories-video-name {
+    text-align: left;
+
+
+}
+
+/* WHAT'S INSIDE */
+
+.what-inside-ctr {
+    
+}
