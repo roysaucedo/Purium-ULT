@@ -35,6 +35,7 @@ h2 {
 
 h3 {
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 
 /* NAV */
@@ -69,7 +70,7 @@ h3 {
 .nav-cta {
     width: 100px;
     height: 35px;
-    background-color: green;
+    background-color:#006145;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -102,7 +103,7 @@ h3 {
 .hero-sub-text {
     text-align: center;
     font-size: 16px;
-    color: #44944b;
+    color: #33A544;
 }
 
 .hero-img-ctr {
@@ -127,7 +128,7 @@ h3 {
 .hero-cta {
     width: 150px;
     height: 35px;
-    background-color: green;
+    background-color: #006145;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -143,9 +144,12 @@ h3 {
 /* BENEFITS */
 
 .benefits-ctr {
-    background-color: #c6ffcb;
+    background-color: #F4FFF3;
     width: 100%;
-    height: 1100px;
+    height: 1000px;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-top-color: #BABABA;
 
 }
 
@@ -164,11 +168,12 @@ h3 {
     margin: 40px auto;
 }
 .benefits-grid-item {
+    width: 20%;
 
 }
 
 .benefits-img {
-    width: 500px;
+    width: 100%;
 
 }
 
@@ -176,9 +181,13 @@ h3 {
 /* CUSTOMER STORIES */
 
 .customer-stories-ctr {
-    background-color: #c6ffcb;
+    background-color: #F4FFF3;
     width: 100%;
     height: 900px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-bottom-color: #BABABA;
+    padding-top: 50px;
 }
 
 .customer-stories-headline {
@@ -210,8 +219,12 @@ h3 {
 
 .customer-stories-video-name {
     text-align: left;
+    font-size: 24px;
 
+}
 
+.customer-stories-button {
+    width: 300px;
 }
 
 /* WHAT'S INSIDE */
